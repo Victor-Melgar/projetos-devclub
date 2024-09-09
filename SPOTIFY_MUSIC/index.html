@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Music</title>
+    <!-- Estilos Css -->
+    <link rel="stylesheet" href="src/css/styles.css">
+    <!-- JavaScript -->
+    <script src="js/scripts.js" defer></script>
+    <!-- Icons do Font Awesome -->
+    <script src="https://kit.fontawesome.com/861f329aa4.js" crossorigin="anonymous"></script>
+    <!-- Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="nav-logo">
+                <!-- Logo do Spotify -->
+                <i class="fa-brands fa-spotify"></i>
+            </div>
+            <div class="nav-library">
+                <!-- Icon da Biblioteca -->
+                <i class="fa-solid fa-book"></i>
+                <p>Sua Biblioteca +</p>
+            </div>
+            <div class="nav-playlist">
+                <h5>Crie sua Primeira Playlist</h5>
+                <p>É fácil, vamos te ajudar</p>
+                <button>Criar Playlist</button>
+            </div>
+            <div class="nav-podcast">
+                <h5>Que tal Seguir um Podcast ?</h5>
+                <p>Avisaremos você sobre nossos episódios</p>
+                <button>Explore Podcast</button>
+            </div>
+            <div class="nav-footer">
+                <a href="#">Legal</a>
+                <a href="#">Centro de Privacidade</a>
+                <a href="#">Polítca de Privacidade</a>
+                <a href="#">Cookies</a>
+                <a href="#">Sobre anúncios</a>
+                <a href="#">Acessibilidade</a>
+            </div>
+            <button class="nav-lang-button">
+                <!-- Icon do Idioma -->
+                <i class="fa-solid fa-globe"></i>
+                Português do Brasil
+            </button>
+        </nav>
+
+        <main>
+            <header>
+                <!-- Icon de Pesquisa -->
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input placeholder="O que você quer ouvir ?">
+            </header>
+
+            <section class="content">
+                <h2>Artistas Populares</h2>
+                <div class="artists-grid">
+                    <!-- Inserir dados com JS -->
+                </div>
+
+                <h2>Álbuns Populares</h2>
+                <div class="albums-grid">
+                    <!-- Inserir dados com JS -->
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
