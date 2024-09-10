@@ -2,80 +2,85 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../img/paisagem-natural.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/pexels-nejc-kosir-108379-338936.jpg");
+    background-size: cover;
 }
 
 .caixa-maior {
-    background-color: #000;
+    background-color: #000000;
+    width: 95%; 
+    max-width: 420px; 
     opacity: 0.8;
-    border-radius: 25px;
     padding: 20px;
-    width: 95%;
-    max-width: 450px;
+    border-radius: 25px;
 }
 
-.input-city {
-    border: none;
-    outline: none;
-    padding: 10px;
-    border-radius: 25px;
+input {
+    border: none;/* borda do elemento */
+    outline: none;/* borda quando seleciona o elemento */
+    padding: 10px;/* espaçamento interno */
+    border-radius: 24px;/* arredonda as bordas */
     font-size: 20px;
     background-color: #7c7c7c2b;
-    color: #fff;
-    width: calc(100% - 100px);
+    color: #ffffff;
+    width: calc( 100% - 100px);
 }
 
-.botao-busca {
+button {
     border: none;
     outline: none;
     padding: 10px;
     border-radius: 50px;
     background-color: #7c7c7c2b;
-    cursor: pointer;
     float: right;
+    cursor: pointer;
 }
 
-.img-busca {
-    width: 20px;
+button:hover {
+    background-color: #7c7c7c6b;
 }
 
 .caixa-media {
     margin-top: 30px;
 }
 
-.cidade {
-    color: #fff;
-    font-size: 28px;
-    font-weight: 300;
+.caixa-menor {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.lupa {
+    height: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px; /* tamanho do texto */
 }
 
 .temp {
-    font-size: 20px;
-    color: #fff;
-    margin-top: 20px;
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 30px;
 }
 
-.caixa-menor {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.texto-previsao {
-    color: #fff;
+.descricao {
+    color: #ffffff;
     margin-left: 20px;
+    text-transform: capitalize; /* Deixa a primeira letra maiuscula*/
 }
 
 .umidade {
-    color: #fff;
-    margin-top: 20px;
+    color: #ffffff;
+    margin-top: 30px;
 }
